@@ -1,5 +1,5 @@
 # LLM A* 
-[arXiv](https://arxiv.org/abs/2312.01797)
+[arXiv](https://arxiv.org/abs/2312.01797) | supplyment
 ## Requirements
 There are two necessary factors for running the experiment code: 
   1. Please ensure that openai (v0.28) is installed for the compatibility of GPT-3.5；
