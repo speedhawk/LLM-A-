@@ -16,6 +16,7 @@ There are two necessary factors for running the experiment code:
 
 ## Running
 
+We save each code of LLM A*, LLM Greedy and PPO as a corresponding gist. It can be immediately run.
 
 ## Potencial Problems
 There are possibly two problems during running. When the problems below appear, please just re-run the code:
