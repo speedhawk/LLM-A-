@@ -31,3 +31,13 @@ There are possibly two problems during running. When the problems below appear, 
 Additionally, considering the fact that there is a certain degree of randomness in the result of LLM A*, LLM Greedy and PPO, it is normal for the reimplementation results to be different from those in the paper. 
 
 ## BiblioTeX
+
+
+@misc{xiao2023llm,
+      title={LLM A*: Human in the Loop Large Language Models Enabled A* Search for Robotics}, 
+      author={Hengjia Xiao and Peng Wang},
+      year={2023},
+      eprint={2312.01797},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
