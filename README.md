@@ -5,18 +5,15 @@ LLM A* is a novel algorithm that integrates traditional heuristic algorithms tog
 
 [arXiv](https://arxiv.org/abs/2312.01797) | supplyment
 
-## Requirements
+## Requirements & Running
 
-There are two necessary factors for running the experiment code: 
-  1. Please ensure that openai (v0.28) is installed for the compatibility of GPT-3.5；
-  ```
-  pip install openai==0.28
-  ```  
-  2. An available OpenAI API key is required. (fix with the code on google colab)
+We saved each codenote of LLM A*, LLM Greedy and PPO on GoogleColab as a corresponding gist that can be immediately run. However, an available OpenAI API key is required in LLM-based algorithms. (fix with the code on google colab) please change the code below with your API key before running:
 
-## Running
 
-We save each code of LLM A*, LLM Greedy and PPO as a corresponding gist. It can be immediately run.
+```
+self.openai_key = 'YOUR_KEY'
+```
+
 
 ## Potencial Problems
 There are possibly two problems during running. When the problems below appear, please just re-run the code:
@@ -24,5 +21,6 @@ There are possibly two problems during running. When the problems below appear, 
   2. For PPO, an error with [nan, nan] is thrown out.
 
 
-Additionally, considering the fact that there is a certain degree of randomness in the result of LLM A*, LLM Greedy and PPO, it is normal for the reimplementation results to be different from those in the paper.
+Additionally, considering the fact that there is a certain degree of randomness in the result of LLM A*, LLM Greedy and PPO, it is normal for the reimplementation results to be different from those in the paper. 
+
 ## BiblioTeX
