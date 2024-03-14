@@ -13,7 +13,14 @@ We saved each codenote of LLM A*, LLM Greedy and PPO on GoogleColab as a corresp
 ```
 self.openai_key = 'YOUR_KEY'
 ```
+Moreover, please be aware about the path which should be self-defined in your Google drive. 
+For LLM-based algorithms, you should be care about:
+  The path saving environments
+For PPO, you should be extraly care about:
+  1. path of statistic data (about the score and steps)
+  2. path of network checkpoints
 
+  Especially, you can manually modify the number in 'episodes.txt' to 0 when starting a new training.
 
 ## Potencial Problems
 There are possibly two problems during running. When the problems below appear, please just re-run the code:
