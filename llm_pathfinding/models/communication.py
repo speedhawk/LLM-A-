@@ -14,8 +14,11 @@ class communication:
     """
 
     def __init__(self, key, model_name, env_description, max_margin, start_node, target_node):
-        # 完整保留原始初始化逻辑
-        self.openai_key = key  # 实际应通过config配置
+        
+        # Initialize the communication class with the OpenAI key, model name, environment description, margin size, start node, and target node.
+        # The OpenAI key should be securely stored and not hardcoded.
+
+        self.openai_key = key  # Using the key from the config file
         self.model_name = model_name
         self.env_discription = env_description
         self.start_node = start_node
@@ -113,10 +116,17 @@ class communication:
 
 
 def extract_node(reply):
-    # 完整正则匹配逻辑
+
+    """
+    Extract the node from the reply of LLM.
+    The reply should be in the format of "[x, y]"
+    where x and y are the coordinates of the node.
+    The function will return the node as a tuple (x, y).
+    """
+    
+
     context = reply
     pattern = r'\[(\d+),\s*(\d+)\]'
-    # ...完整实现...
 
     try:
         lists = re.findall(pattern, context)
