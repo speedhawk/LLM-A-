@@ -3,7 +3,7 @@
 LLM A* is a novel algorithm that integrates traditional heuristic algorithms together with large language model (LLM), in order to achieving a lower search complexity and higher quality of planned path in comparison with data-drived path planning algorithms. Based on GPT-3.5-turbo interaction sessions, LLM A* is able to meet a near-A* degree in the light of the matrics of search complexity, path steps and maximum deviation times (MDT) under special obstacle grid-map environments with different sizes.
 
 ## Notes>_<
-Our project was initially completed and implemented on Google Colab. We are currently continuously updating and improving the source code. If you have difficulty installing the source code, please run the Ipynb file first. Thank you!
+Our project was initially completed and implemented on Google Colab. We are currently continuously updating and improving the source code and the setup documents. If you have difficulty installing the source code, please run the Ipynb file first. Thank you!
 
 
 [arXiv](https://arxiv.org/abs/2312.01797) | [supplement](https://stummuac-my.sharepoint.com/personal/55141653_ad_mmu_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F55141653%5Fad%5Fmmu%5Fac%5Fuk%2FDocuments%2FFaculty%2Ddoc%2FResearch%2FPeng%2DWang%2FIROS%5F2024%2FSupplemental%20Materials%20to%20%20LLM%20A%20Human%20in%20the%20Loop%20Large%20Language%20Models%20Enabled%20A%20Star%20Search%20for%20Robotics%2Epdf&parent=%2Fpersonal%2F55141653%5Fad%5Fmmu%5Fac%5Fuk%2FDocuments%2FFaculty%2Ddoc%2FResearch%2FPeng%2DWang%2FIROS%5F2024&ga=1)
